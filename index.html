@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My First PWA</title>
+  
+  <!-- Manifest File ချိတ်ဆက်ခြင်း -->
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#000080">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f4f4f9;
+      padding: 50px 20px;
+    }
+    .card {
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      max-width: 400px;
+      margin: 0 auto;
+    }
+    button {
+      background-color: #000080;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      font-size: 16px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #000066;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <h1>မင်္ဂလာပါ 👋</h1>
+    <p>ဒါကတော့ PWABuilder နဲ့ APK ပြောင်းဖို့ အစမ်းရေးထားတဲ့ Web App ဖြစ်ပါတယ်။</p>
+    <button onclick="alert('App အလုပ်လုပ်နေပါပြီ!')">နှိပ်ကြည့်ပါ</button>
+  </div>
+
+  <!-- Service Worker Register လုပ်ခြင်း -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('sw.js')
+        .then(() => console.log('Service Worker Registered!'))
+        .catch(err => console.log('Service Worker Failed:', err));
+    }
+  </script>
+</body>
+</html>

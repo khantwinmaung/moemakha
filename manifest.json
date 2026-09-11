@@ -1,0 +1,15 @@
+{
+  "name": "My Sample App",
+  "short_name": "SampleApp",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000080",
+  "icons": [
+    {
+      "src": "https://via.placeholder.com/512/000080/FFFFFF?text=App",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
