@@ -6,7 +6,6 @@
   "background_color": "#ffffff",
   "theme_color": "#000000",
   "icons": [
-      "icons": [
     {
       "src": "./launchericong-192x192.png",
       "sizes": "192x192",
@@ -16,16 +15,6 @@
       "src": "./launchericong-512x512.png",
       "sizes": "512x512",
       "type": "image/png"
-    }
-  ]
-,
-  "screenshots": [
-    {
-      "src": "/path/to/screenshot.png",
-      "sizes": "1280x720",
-      "type": "image/png",
-      "form_factor": "wide",
-      "label": "App Screenshot"
     }
   ]
 }
