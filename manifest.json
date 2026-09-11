@@ -1,11 +1,11 @@
 {
-  "name": "My First PWA",
-  "short_name": "MyPWA",
-  "description": "My first sample progressive web application",
+  "name": "Moe Ma Kha App",
+  "short_name": "MoeMaKha",
+  "description": "Moe Ma Kha Web Application",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#000080",
+  "theme_color": "#000000",
   "icons": [
     {
       "src": "https://via.placeholder.com/192",
