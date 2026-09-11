@@ -8,12 +8,12 @@
   "theme_color": "#000000",
   "icons": [
     {
-      "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAAMElEQVR42u3BAQEAAACCIP+vbhhGEAAAAAAAAAAA4K8B34AAAQAAAAGP2RMAAAAASUVORK5CYII=",
+      "src": "https://dummyimage.com/192x192/000/fff.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAAMElEQVR42u3BAQEAAACCIP+vbhhGEAAAAAAAAAAA4K8B34AAAQAAAAGP2RMAAAAASUVORK5CYII=",
+      "src": "https://dummyimage.com/512x512/000/fff.png",
       "sizes": "512x512",
       "type": "image/png"
     }
