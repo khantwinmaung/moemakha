@@ -1,5 +1,5 @@
 {
-  "name": "DLove App",
+  "name": "Moe Ma Kha App",
   "short_name": "DLove",
   "description": "Moe Ma Kha Web Application",
   "start_url": "./index.html",
@@ -8,12 +8,12 @@
   "theme_color": "#000000",
   "icons": [
     {
-      "src": "https://raw.githubusercontent.com/khantwinmaung/moemakha/main/icon.png",
+      "src": "./icon.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "https://raw.githubusercontent.com/khantwinmaung/moemakha/main/icon.png",
+      "src": "./icon.png",
       "sizes": "512x512",
       "type": "image/png"
     }
