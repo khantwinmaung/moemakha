@@ -1,7 +1,7 @@
 {
-  "name": "Moe Ma Kha Web Application",
-  "short_name": "Moe Ma Kha",
-  "start_url": "./",
+  "name": "Moemakha",
+  "short_name": "Moemakha",
+  "start_url": "/moemakha/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#000000",
